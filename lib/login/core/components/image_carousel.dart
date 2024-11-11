@@ -9,7 +9,7 @@ class ImageCarousel extends StatefulWidget {
   const ImageCarousel({super.key, required this.imageUrls});
 
   @override
-  _ImageCarouselState createState() => _ImageCarouselState();
+  State<ImageCarousel> createState() => _ImageCarouselState();
 }
 
 class _ImageCarouselState extends State<ImageCarousel> {
