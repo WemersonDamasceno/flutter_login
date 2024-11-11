@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login/login/core/utils/di/di.dart';
+import 'package:provider/provider.dart';
 
 import 'login_view.dart';
 
@@ -7,6 +9,9 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LoginView();
+    return MultiProvider(
+      providers: DIHelper.singleton.dataProviders,
+      child: const LoginView(),
+    );
   }
 }

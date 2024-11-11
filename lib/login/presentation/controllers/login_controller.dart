@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/login/core/components/button/button_controller.dart';
 import 'package:flutter_login/login/core/errors/failures.dart';
+import 'package:flutter_login/login/presentation/components/button/button_controller.dart';
 
 import '../../data/models/user_model.dart';
 import '../../domain/repositories/auth_repository.dart';

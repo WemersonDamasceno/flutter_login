@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/login/core/components/button/button_controller.dart';
-import 'package:flutter_login/login/core/components/button/button_widget.dart';
-import 'package:flutter_login/login/core/components/input_widget.dart';
-import 'package:flutter_login/login/core/components/snackbar/snackbar_mixin.dart';
 import 'package:flutter_login/login/core/constants/app_colors.dart';
 import 'package:flutter_login/login/core/utils/session/user_session.dart';
+import 'package:flutter_login/login/presentation/components/button/button_controller.dart';
+import 'package:flutter_login/login/presentation/components/button/button_widget.dart';
+import 'package:flutter_login/login/presentation/components/input_widget.dart';
+import 'package:flutter_login/login/presentation/components/snackbar/snackbar_mixin.dart';
 import 'package:provider/provider.dart';
 
 import '../../data/models/user_model.dart';
