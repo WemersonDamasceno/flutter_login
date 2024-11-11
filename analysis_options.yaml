@@ -1,0 +1,13 @@
+# This file is used by Dart tooling to provide customized lint rules and analyze
+
+analyzer:
+  errors:
+    use_build_context_synchronously: ignore
+
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false  
+    prefer_single_quotes: true
